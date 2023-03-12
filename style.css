@@ -1,0 +1,97 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body{
+    font-family: "Nunito", sans-serif;
+    margin: 150px;
+    background-color: #b2bec3;
+}
+
+
+.obsah{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 550px;
+    margin: auto;
+    position: relative;
+    box-shadow: 2px 2px 15px black;
+}
+
+.hlavni{
+    border-radius:50%;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    border: 3px solid white; 
+    position: absolute;
+    left: 86.4%;
+    bottom: 83.9%;
+    box-shadow: 2px 2px 4px black;
+}
+
+
+
+h1{
+    color:#d63031;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 0;
+
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.twitter{
+    background-color: #1da1f2;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.twitter:hover{
+    background-color:  #0b7bc1;
+}
+.twitter:focus{
+    background-color:  #0b7bc1;
+}
+
+
+.fb{
+    background-color: #3b5998;
+    font-size: 18px;
+    display: block;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+.fb:hover{
+    background-color: #2b406e;
+}
+.fb:focus{
+    background-color: #2b406e;
+}
+.fb:active{
+    background-color: #2b406e;
+}
